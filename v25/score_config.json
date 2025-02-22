@@ -1,0 +1,56 @@
+{
+    "variables": [
+        {
+            "teacher_function": "add",
+            "teacher_var": "c",
+            "points": 5
+        },
+        {
+            "teacher_function": "add",
+            "teacher_var": "d",
+            "points": 5
+        },
+        {
+            "teacher_function": "add",
+            "teacher_var": "e",
+            "points": 5
+        },
+        {
+            "teacher_function": "add",
+            "teacher_var": "f",
+            "points": 10
+        }
+    ],
+    "functions": [
+        {
+            "teacher_name": "add",
+            "points": 30,
+            "parameters": [
+                "a",
+                "b"
+            ],
+            "return_var": "Return Expression in f"
+        }
+    ],
+    "function_calls": [
+        {
+            "description": "-",
+            "location": "main",
+            "points": 20,
+            "teacher_call": {
+                "function_name": "add",
+                "param_count": 2,
+                "params": [
+                    {
+                        "type": "constant",
+                        "value": 5
+                    },
+                    {
+                        "type": "constant",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    ]
+}
